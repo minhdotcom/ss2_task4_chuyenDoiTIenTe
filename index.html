@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ss2_task4_chuyenDoiTIenTe</title>
+</head>
+<body topmargin="30" leftmargin="30">
+
+<label for = "amount">Amount</label>
+<br>
+<input id = "amount" value = "" type = "number" width = "50" style = "border: 1px solid #d3d3d3;"></input>
+<br>
+<br>
+
+<label for = "fromCurrency">From currency</label>
+<br>
+<select id = "fromCurrency" style = "border: 1px solid #d3d3d3;">
+    <option value = "">--Please choose currency--</option>
+    <option value = "VND">Vietnam Dong (VND)</option>
+    <option value = "USD">US Dollar (USD)</option>
+</select>
+<br>
+<br>
+
+<label for = "toCurrency">To currency</label>
+<br>
+<select id = "toCurrency" style = "border: 1px solid #d3d3d3;">
+    <option value = "">--Please choose currency--</option>
+    <option value = "VND">Vietnam Dong (VND)</option>
+    <option value = "USD">US Dollar (USD)</option>
+</select>
+<br>
+<br>
+<button id = "convert" onclick="show_convert_result()">Convert</button>
+<p id = "convertResult"></p>
+
+<script src = "functions.js"></script>
+<script src = "main.js"></script>
+
+</body>
+</html>
